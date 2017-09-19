@@ -11,8 +11,10 @@
  * @breif: This function is to find the position of given string in a given text
  @ and following the way from code in Problem 9-4.
  * @param text A char array the given text
+ * @param text_length An integer represents the length of text
  * @param array_search A char array we want to find in the given text
- * @return position A integer represent of the position of search char array；
+ * @param array_search_length An integer represents the length of array_search
+ * @return position An integer represents the position of search char array；
  * if cannot find matched array return -1
  */
  int beg_position_one (const char* text, const int& text_length, const char* array_search, const int& array_search_length) {
@@ -41,7 +43,7 @@
  * @breif: This function has same target to beg_position_one but accessing by easily way
  * @param text A char array the given text
  * @param array_search A char array we want to find in the given text
- * @return position A integer represent of the position of search char array;
+ * @return position An integer represent of the position of search char array;
  * if cannot find matched array return -1
  */
  int beg_position_two (const char* text, const char* array_search) {
